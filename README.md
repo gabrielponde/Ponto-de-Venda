@@ -1,4 +1,4 @@
-# Ponto De Vendas - PDV 
+# Ponto De Venda - PDV 
 
 ## Descrição do Projeto
 Este projeto consiste no desenvolvimento de uma API RESTful para um sistema de Ponto de Venda (PDV), projetado para gerenciar com eficiência o cadastro e a operação de usuários, produtos, categorias, clientes e pedidos. A API oferece funcionalidades essenciais para operações comerciais, permitindo a execução de operações CRUD (Create, Read, Update, Delete) em diferentes entidades do sistema.
