@@ -1,0 +1,30 @@
+{
+  "name": "ponto-de-venda",
+  "version": "1.0.0",
+  "description": "Este projeto consiste no desenvolvimento de uma API RESTful para um sistema de Ponto de Venda (PDV), projetado para gerenciar com eficiência o cadastro e a operação de usuários, produtos, categorias, clientes e pedidos. A API oferece funcionalidades essenciais para operações comerciais, permitindo a execução de operações CRUD (Create, Read, Update, Delete) em diferentes entidades do sistema.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Pondé gabrielpavena.developer@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.8",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.12.0",
+    "uuidv4": "^6.2.13"
+  }
+}
