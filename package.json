@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Este projeto consiste no desenvolvimento de uma API RESTful para um sistema de Ponto de Venda (PDV), projetado para gerenciar com eficiência o cadastro e a operação de usuários, produtos, categorias, clientes e pedidos. A API oferece funcionalidades essenciais para operações comerciais, permitindo a execução de operações CRUD (Create, Read, Update, Delete) em diferentes entidades do sistema.",
   "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "nodemon ./src/index.js"
   },
@@ -15,6 +18,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.637.0",
     "bcrypt": "^5.1.1",
+    "build": "^0.1.4",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",

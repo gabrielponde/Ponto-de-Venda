@@ -2,7 +2,6 @@ const bcrypt = require('bcrypt');
 const knex = require('../conexao');
 const jwt = require('jsonwebtoken');
 const transportador = require("../intermediarios/nodemailer");
-const enviarEmail = require('../intermediarios/enviarEmail');
 
 const cadastrarUsuario = async (req, res) => {
     const { nome, email, senha } = req.body;
