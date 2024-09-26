@@ -14,6 +14,10 @@ const upload = multer();
 
 const rotas = express();
 
+rotas.get('/', async (req, res) => {
+    res.json('Seja bem vindo ao PDV!');
+});
+
 rotas.get('/categoria', categorias.listarCategorias);
 
 rotas.post('/usuario', validarCorpoRequisicao(schemaCadastrar), usuarios.cadastrarUsuario);

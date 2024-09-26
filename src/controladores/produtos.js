@@ -1,5 +1,5 @@
 const knex = require('../conexao');
-const { uploadFile, excluirImagem, s3 } = require('../storage');
+const { uploadFile, excluirImagem } = require('../storage');
 
 const cadastrarProduto = async (req, res) => {
     const { descricao, quantidade_estoque, valor, categoria_id } = req.body
